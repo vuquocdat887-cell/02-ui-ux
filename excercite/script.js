@@ -198,9 +198,9 @@ function renderHome() {
     const d = document.createElement("div");
     d.className = "card-item";
     d.innerHTML = `
-      <img src="${p.img}" onerror="this.src='https://via.placeholder.com/180'">
+      <img src="${p.img}"  alt="${p.name}">
       <h4>${p.name}</h4>
-      <div style="color:#0078d4;font-weight:600">${p.price}</div>`;
+      <div style="color:green;font-weight:600">${p.price}</div>`;
     cards.appendChild(d);
   });
 }
