@@ -191,7 +191,7 @@ function onDelProduct(i) {
 function renderHome() {
   cards.innerHTML = "";
   if (products.length === 0) {
-    cards.innerHTML = '<div style="color:#666">Chưa có sản phẩm nào</div>';
+    cards.innerHTML = '<div>Chưa có sản phẩm nào</div>';
     return;
   }
   products.forEach((p) => {
